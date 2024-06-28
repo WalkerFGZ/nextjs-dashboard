@@ -1,7 +1,6 @@
-import { PokemonsResponse, SimplePokemon } from "@/app/pokemons";
-
 import Image from "next/image";
 import { Metadata } from "next";
+import { PokemonsResponse } from "@/app/pokemons";
 import { notFound } from "next/navigation";
 
 interface Props {
