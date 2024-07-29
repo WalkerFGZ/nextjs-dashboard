@@ -1,5 +1,5 @@
-import { PokemonGrid, PokemonsResponse, SimplePokemon } from "@/app/pokemons";
-
+import { FavoritePokemons } from "@/app/pokemons";
+import { IoHeartOutline } from "react-icons/io5";
 import { Metadata } from "next";
 import React from "react";
 
@@ -14,7 +14,7 @@ export default async function PokemonsPage() {
       <span className="text-5xl my-2">
         Pokemons <small className="text-blue-500">favoritos</small>
       </span>
-      <PokemonGrid pokemons={[]} />
+      <FavoritePokemons />
     </div>
   );
 }
